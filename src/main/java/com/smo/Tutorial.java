@@ -16,7 +16,8 @@ public class Tutorial {
 
     public static void main(String[] args) {
         log.info("My First Apache Shiro Application");
-
+        
+        //这里是Shiro的配置
 
         //1. 这里的SecurityManager是org.apache.shiro.mgt.SecurityManager，而不是java.lang.SecurityManager
         // 加载配置文件
